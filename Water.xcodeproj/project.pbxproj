@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0FAF2A2A234E47C40019DD65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF2A29234E47C40019DD65 /* AppDelegate.swift */; };
-		0FAF2A2C234E47C40019DD65 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF2A2B234E47C40019DD65 /* SceneDelegate.swift */; };
 		0FAF2A2E234E47C40019DD65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FAF2A2D234E47C40019DD65 /* ViewController.swift */; };
 		0FAF2A31234E47C40019DD65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FAF2A2F234E47C40019DD65 /* Main.storyboard */; };
 		0FAF2A33234E47C80019DD65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FAF2A32234E47C80019DD65 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		0FAF2A26234E47C40019DD65 /* Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Water.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAF2A29234E47C40019DD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0FAF2A2B234E47C40019DD65 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0FAF2A2D234E47C40019DD65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0FAF2A30234E47C40019DD65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0FAF2A32234E47C80019DD65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				0FAF2A29234E47C40019DD65 /* AppDelegate.swift */,
-				0FAF2A2B234E47C40019DD65 /* SceneDelegate.swift */,
 				0FAF2A2D234E47C40019DD65 /* ViewController.swift */,
 				0FAF2A2F234E47C40019DD65 /* Main.storyboard */,
 				0FAF2A32234E47C80019DD65 /* Assets.xcassets */,
@@ -140,7 +137,6 @@
 			files = (
 				0FAF2A2E234E47C40019DD65 /* ViewController.swift in Sources */,
 				0FAF2A2A234E47C40019DD65 /* AppDelegate.swift in Sources */,
-				0FAF2A2C234E47C40019DD65 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +282,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Water/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -293,7 +290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomily.Water;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +300,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Water/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +308,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tomily.Water;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
