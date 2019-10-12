@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F19F313235215B900AF5693 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0F871629234FA52000CC9451 /* FileSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileSave.swift; sourceTree = "<group>"; };
 		0FAF2A26234E47C40019DD65 /* Water.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Water.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FAF2A29234E47C40019DD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +43,7 @@
 		0FAF2A1D234E47C30019DD65 = {
 			isa = PBXGroup;
 			children = (
+				0F19F313235215B900AF5693 /* README.md */,
 				0FAF2A28234E47C40019DD65 /* Water */,
 				0FAF2A27234E47C40019DD65 /* Products */,
 			);
